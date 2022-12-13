@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CICD Pipeline - Homework1</title>
+    <style>
+      body {
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        font-size:14px;
+        -moz-transition-property: text-shadow;
+        -moz-transition-duration: 4s;
+        -webkit-transition-property: text-shadow;
+        -webkit-transition-duration: 4s;
+        text-shadow: none;
+      }
+      body.blurry {
+        -moz-transition-property: text-shadow;
+        -moz-transition-duration: 4s;
+        -webkit-transition-property: text-shadow;
+        -webkit-transition-duration: 4s;
+        text-shadow: #fff 0px 0px 25px;
+      }
+      a {
+        color: #55aaff;
+      }
+      .textColumn, .linksColumn {
+        padding: 2em;
+      }
+      .textColumn {
+        position: absolute;
+        top: 0px;
+        right: 30%;
+        bottom: 0px;
+        left: 0px;
+
+        text-align: center;
+        padding-top: 17em;
+        background-color: #000217d9;
+
+      }
+      .textColumn p {
+        width: 80%;
+        float:center;
+        text-align: center
+      }
+      .linksColumn {
+        position: absolute;
+        top:0px;
+        right: 0px;
+        bottom: 0px;
+        left: 70%;
+
+        background-color: rgb(104, 119, 94);
+      }
+
+      h1 {
+        color: hsl(240, 28%, 92%);
+        font-size: 500%;
+        font-weight: normal;
+        margin-bottom: 0em;
+      }
+      h2 {
+        font-size: 200%;
+        font-weight: normal;
+        margin-bottom: 0em;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="textColumn">
+        <h1 class="fst-italic lh-1 mb-4">Mozees Fantastic Website</h1>
+        <p>My first single stage pipeline</p>
+        <p>This pipeline deploys to an AWS S3 bucket from the public repo, Github</p>
+    </div>
+    <div class="linksColumn">
+      <h2>What's Next? Two Stage pipeline</h2>
+      
+    </div>
+  </body>
+</html>
